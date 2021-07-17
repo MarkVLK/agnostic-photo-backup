@@ -19,7 +19,6 @@ API_SERVICE_NAME = 'drive'
 API_VERSION = 'v3'
 
 
-
 def auth_google():
     flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
 
